@@ -1,6 +1,6 @@
 DefaultContentLanguage = "en"
 author = "Ryandran Naidoo"
-baseURL = ""
+title = "Ryans Blog"
 baseurl = "https://ryandran.com/"
 copyright = "Copyright © 2008–2018, Ryandran Naidoo; all rights reserved."
 disqusShortname = ""
