@@ -1,11 +1,11 @@
 +++
-title = "About"
-description = "VMware Senior Consultant"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
+aliases = []
 author = "Ryandran Naidoo"
-+++
+date = 2022-04-08T22:00:00Z
+description = "VMware Senior Consultant"
+title = "About"
 
++++
 Welcome
 
 
