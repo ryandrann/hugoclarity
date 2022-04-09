@@ -1,6 +1,6 @@
-baseurl = "https://example.com/"
-title = "Clarity"
-author = "Jane Doe"
+baseurl = "https://ryandran.com/"
+title = "Ryans Tech Blog"
+author = "Ryandran Naidoo"
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
 paginate = 10
 theme = "clarity"
