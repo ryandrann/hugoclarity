@@ -1,28 +1,20 @@
-baseurl = "https://ryandran.com/"
-title = "Ryans Tech Blog"
-author = "Ryandran Naidoo"
-copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
-paginate = 10
-theme = "clarity"
-disqusShortname = ""
 DefaultContentLanguage = "en"
-themesDir = "themes"
+author = "Ryandran Naidoo"
 baseURL = ""
+baseurl = "https://ryandran.com/"
+copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+disqusShortname = ""
+paginate = 10
 publishDir = "public"
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-
+theme = "clarity"
+themesDir = "themes"
+title = "Ryans Tech Blog"
+[markup.goldmark.extensions]
+typographer = false
 [markup.goldmark.renderer]
 hardWraps = false
 unsafe = true
 xhtml = false
-
-[markup.goldmark.extensions]
-typographer = false
-
 [markup.highlight]
 codeFences = true
 guessSyntax = true
@@ -32,23 +24,26 @@ lineNos = true
 lineNumbersInTable = false
 noClasses = false
 tabWidth = 2
-
 [params]
 author = "Jane Doe"
-twitter = "@janedoe"
-largeTwitterCard = false
-introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
-ga_analytics = "XXXXXXXXXX"
-numberOfTagsShown = 14
-fallBackOgImage = "images/thumbnail.png"
-codeMaxLines = 7
-codeLineNumbers = false
-enableMathNotation = false
-mainSections = [ "post" ]
 centerLogo = false
-logo = "logos/logo.png"
-figurePositionShow = false
-figurePositionLabel = "Figure"
-mobileNavigation = "left"
+codeLineNumbers = false
+codeMaxLines = 7
+enableMathNotation = false
 enforceLightMode = false
+fallBackOgImage = "images/thumbnail.png"
+figurePositionLabel = "Figure"
+figurePositionShow = false
+ga_analytics = "XXXXXXXXXX"
+introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
 languageMenuName = "🌐"
+largeTwitterCard = false
+logo = "logos/logo.png"
+mainSections = ["post"]
+mobileNavigation = "left"
+numberOfTagsShown = 14
+twitter = "@janedoe"
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
